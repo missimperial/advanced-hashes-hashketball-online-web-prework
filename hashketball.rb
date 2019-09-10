@@ -23,12 +23,14 @@ def num_points_scored(name)
   #points = {}
   game_hash.each do |location , team|
     team.each do |attribute, value|
-      if attribute[:player_name] == name
-        return value[:points]
-      end
+      value.each do |data_item|
+      #if name == value[:players]
+        #return value[:points]
+      #end
       
     
       binding.pry
+      end
     end
   end
   #binding.pry
