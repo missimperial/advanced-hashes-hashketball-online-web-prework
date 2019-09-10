@@ -44,7 +44,7 @@ def team_colors(name)
     team.each do |attribute, value|
       #binding.pry
         if value == name
-             return team[:colors]
+             return team[:colors].upcase
 end end end end 
 
 
