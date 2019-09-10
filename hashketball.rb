@@ -76,5 +76,5 @@ def player_stats(name)
         if attribute == :players
          value.each do |data|
            if data[:player_name] == name
-             return data
+             return data[]
 end end  end end end end 
