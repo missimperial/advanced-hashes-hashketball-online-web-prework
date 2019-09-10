@@ -77,5 +77,5 @@ def player_stats(name)
          value.each do |data|
            if data[:player_name] == name
              binding.pry
-             #return data.except(:player_name)
+             return data.except!(:player_name)
 end end  end end end end 
