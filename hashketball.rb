@@ -20,13 +20,9 @@ def game_hash
 end
 
 def num_points_scored
-  game_hash.each do | team, hash|
+  game_hash
     binding.pry
-    #hash[:players].each do |x, y|
-      
-      #binding.pry
-    end
-  #end
+  
   
   #binding.pry
 end 
