@@ -60,4 +60,4 @@ def player_numbers(team_name)
          value.each do |data|
            jerseys << data[:number]
            binding.pry
-end  end end end #end 
+end  end end end end 
