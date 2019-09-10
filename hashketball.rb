@@ -61,6 +61,5 @@ def player_numbers(team_name)
            jerseys << data[:number]
            #binding.pry
            end end  end end end 
-jersey 
 
 end 
