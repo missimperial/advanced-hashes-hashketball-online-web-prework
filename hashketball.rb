@@ -21,7 +21,7 @@ end
 
 def num_points_scored
   team = game_hash
-  team.map
+  team.find
   
   binding.pry
 end 
