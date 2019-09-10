@@ -58,7 +58,6 @@ def player_numbers(team_name)
     team.each do |attribute, value|
         if attribute == :players
          value.each do |data|
+           binding.pry
            jerseys << data[number]
 end end  end end end end 
-jersey
-end
