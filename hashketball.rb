@@ -47,14 +47,7 @@ def team_colors(name)
              return team[:colors]
 end end end end 
 
-def team_names(name)
-  team = []
-  
-  game_hash.each do |location , team|
-    team.each do |attribute, value|
-        if attribute == :players
-         value.each do |data|
-           if data[:player_name] == name
-             return data[:shoe]
-end end  end end end end 
+def team_names
+  team = [ game_hash[:home][:team_name], game_hash[:away][:team_name]]
+end 
 
