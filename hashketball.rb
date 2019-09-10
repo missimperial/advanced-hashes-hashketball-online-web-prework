@@ -22,11 +22,11 @@ end
 def num_points_scored
   game_hash.each do | team, hash|
     binding.pry
-    hash[:players].each do |x, y|
+    #hash[:players].each do |x, y|
       
       #binding.pry
     end
-  end
+  #end
   
   #binding.pry
 end 
