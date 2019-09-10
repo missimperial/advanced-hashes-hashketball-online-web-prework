@@ -20,6 +20,7 @@ end
 
 def num_points_scored
   
+  #binding.pry
 end 
 
 
