@@ -19,11 +19,15 @@ def game_hash
   team
 end
 
-def num_points_scored
-  game_hash
+def num_points_scored(name)
+  points = {}
+  game_hash.each do |location , team|
+    team.each do |attribute, data|
+      
+    
     binding.pry
-  
-  
+    end
+  end
   #binding.pry
 end 
 
