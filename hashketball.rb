@@ -43,11 +43,7 @@ def shoe_size(name)
            if data[:player_name] == name
              return data[:shoe]
            #binding.pry
-            end end
-        end
-      end
-  end
-end 
+            end end  end end end end 
 
 
 
