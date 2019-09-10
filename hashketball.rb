@@ -44,8 +44,8 @@ def team_colors(name)
     team.each do |attribute, value|
       binding.pry
         if value == name
-             return data[:shoe]
-end end  end end end end 
+             return team[:colors]
+end end end end 
 
 
 
