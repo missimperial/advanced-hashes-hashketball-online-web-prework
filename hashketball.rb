@@ -44,7 +44,7 @@ def team_colors(name)
     team.each do |attribute, value|
       #binding.pry
         if value == name
-             return team[:colors].upcase
+             colors = team[:colors].split.map(&:capitalize).join(' ')
 end end end end 
 
 
