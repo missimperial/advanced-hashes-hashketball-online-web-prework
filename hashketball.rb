@@ -25,10 +25,11 @@ def num_points_scored(name)
     team.each do |attribute, value|
         value.each do |data_item|
             if value[:player_name] == name
-              return 
-        
+              return name
+              
+        binding.pry
         #while attribute == :players
-         each.value do |array|
+         #each.value do |array|
           
       #value.each do |data_item|
       #if name == value[:players]
