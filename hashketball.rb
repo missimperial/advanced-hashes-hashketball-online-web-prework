@@ -41,10 +41,13 @@ end end  end end end end
 
 def team_colors(name)
   game_hash.each do |location , team|
-        if team[:team_name] == name
-             return team[:colors]
-             binding.pry
-end end end
+    team.each do |attribute, value|
+      binding.pry
+        if attribute == :players
+         value.each do |data|
+           if data[:player_name] == name
+             return data[:shoe]
+end end  end end end end 
 
 
 
