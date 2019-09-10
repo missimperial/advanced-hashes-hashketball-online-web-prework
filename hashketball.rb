@@ -23,8 +23,9 @@ def num_points_scored(name)
   #points = {}
   game_hash.each do |location , team|
     team.each do |attribute, value|
-        
-        
+        value.each do |data_item|
+            if value[:player_name] == name
+              return 
         
         #while attribute == :players
          each.value do |array|
