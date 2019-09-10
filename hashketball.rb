@@ -26,6 +26,7 @@ def num_points_scored(name)
         
         while attribute == :players
          #each.value do |array|
+       end 
           
       #value.each do |data_item|
       #if name == value[:players]
