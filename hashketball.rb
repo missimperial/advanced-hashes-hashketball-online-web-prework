@@ -18,7 +18,9 @@ def game_hash
           #.pry
 end
 
-
+def num_points_scored
+  
+end 
 
 
 
