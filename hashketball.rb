@@ -76,7 +76,10 @@ def player_stats(name)
         if attribute == :players
          value.each do |data|
            if data[:player_name] == name
-             return data.delete(:player_name)
+             stats = {}
+             stats = data
+             stats.delete(:player_name)
+             return stats
              
              binding.pry
 end end  end end end end 
