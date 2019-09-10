@@ -47,5 +47,3 @@ def team_colors(name)
              return team[:colors]
 end end end end 
 
-
-
