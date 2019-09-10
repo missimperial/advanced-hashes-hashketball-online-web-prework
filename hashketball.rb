@@ -21,7 +21,11 @@ end
 
 def num_points_scored
   team = game_hash
-  team.find
+  team.each do | team, hash|
+    hash[:players].each do 
+      binding.pry
+    end
+  end
   
   binding.pry
 end 
