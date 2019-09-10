@@ -29,8 +29,7 @@ def num_points_scored(name)
       #data.each do |data_item|
       
     
-      end
-      binding.pry
+      
     end
   end
   #binding.pry
