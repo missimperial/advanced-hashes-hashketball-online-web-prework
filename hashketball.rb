@@ -19,7 +19,7 @@ def game_hash
   team
 end
 
-=begin
+
 def num_points_scored(name)
   #points = {}
   game_hash.each do |location , team|
