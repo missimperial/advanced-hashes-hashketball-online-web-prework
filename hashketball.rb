@@ -109,6 +109,5 @@ def most_points_scored
         end 
         return scored.max
       
-       end
 end end end
 end
