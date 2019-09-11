@@ -90,6 +90,7 @@ def big_shoe_rebounds
   game_hash.each do |location, team|
     team.each do |attribute, value|
       if attribute == :players
+        value.each do |data|
       binding.pry
 end
 end end end
