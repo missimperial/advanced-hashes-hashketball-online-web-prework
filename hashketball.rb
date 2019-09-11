@@ -31,6 +31,7 @@ def num_points_scored(name)
            #binding.pry
 end end  end end end #end 
 
+=begin
 def shoe_size(name)
   game_hash.each do |location , team|
     team.each do |attribute, value|
@@ -93,3 +94,5 @@ def big_shoe_rebounds
   binding.pry
 end
 end end
+
+=end
