@@ -91,7 +91,7 @@ def big_shoe_rebounds
     team.each do |attribute, value|
       if attribute == :players
         value.each do |data|
-          shoe_size["#{data[:shoe]}"] = [data[:player_name], data[:rebounds]]
+          shoe_size[data[:shoe]] = [data[:player_name], data[:rebounds]]
       binding.pry
 end end
 end end end
