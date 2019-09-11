@@ -89,6 +89,7 @@ def big_shoe_rebounds
   shoe_size = []
   game_hash.each do |location, team|
     team.each do |attribute, value|
+      if attribute == :players
       binding.pry
 end
-end end
+end end end
