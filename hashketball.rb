@@ -104,10 +104,10 @@ def most_points_scored
     team.each do |attribute, value|
       if attribute == :players
         value.each do |data|
-          scored[data[:points]] = [data[:player_name], data[:rebounds]]
-          
+          scored[data[:points]] = [data[:player_name]
+          binding.pry
         end 
-        return shoe_size.max[1][1]
+        return scored.max[0]
        end
 end end end
 end
