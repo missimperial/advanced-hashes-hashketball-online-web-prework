@@ -93,6 +93,7 @@ def big_shoe_rebounds
         value.each do |data|
           shoe_size[data[:shoe]] = [data[:player_name], data[:rebounds]]
           rebound = shoe_size.max[1][1]
-      binding.pry
-end end
+        end 
+       end
+       binding.pry
 end end end
