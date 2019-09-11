@@ -81,14 +81,11 @@ def player_stats(name)
              stats.delete(:player_name)
              return stats
              
-             binding.pry
 end end  end end end end 
 
-def shoe_size(name)
-  game_hash.each do |location , team|
-    team.each do |attribute, value|
-        if attribute == :players
-         value.each do |data|
-           if data[:player_name] == name
-             return data[:shoe]
-end end  end end end end 
+def big_shoe_rebounds
+  shoe_size = []
+  game_hash.each do |location, team|
+  
+  binding.pry
+end 
