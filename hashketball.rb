@@ -106,7 +106,6 @@ def most_points_scored
         value.each do |data|
           scored[data[:points]] = data[:player_name]
         end 
-      end
         return scored.max[1]
       
-end end end
+end end end end
