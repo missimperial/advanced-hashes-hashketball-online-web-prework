@@ -90,7 +90,5 @@ def big_shoe_rebounds
   game_hash.each do |location, team|
     team.each do |attribute, value|
       
-  
-  binding.pry
 end
 end end
