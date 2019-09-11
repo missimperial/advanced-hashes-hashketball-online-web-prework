@@ -26,10 +26,10 @@ def num_points_scored(name)
     team.each do |attribute, value|
         if attribute == :players
          value.each do |data|
-            if data[:player_name] == name
-             return data[:points]
+            #if data[:player_name] == name
+             #return data[:points]
            binding.pry
-end end  end end end end
+end end  end end end #end
 
 =begin
 def shoe_size(name)
