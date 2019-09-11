@@ -107,7 +107,7 @@ def most_points_scored
           scored[data[:points]] = data[:player_name]
           binding.pry
         end 
-        return scored.max
+        return scored.max[1]
       
 end end end
 end
