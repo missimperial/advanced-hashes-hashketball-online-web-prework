@@ -105,7 +105,6 @@ def most_points_scored
       if attribute == :players
         value.each do |data|
           scored[data[:points]] = data[:player_name]
-          binding.pry
         end 
         return scored.max[1]
       
