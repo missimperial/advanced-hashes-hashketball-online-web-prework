@@ -27,7 +27,7 @@ def num_points_scored(name)
         #if attribute == :players
          value.each do |data|
            binding.pry
-end end  end end end #end 
+end end  end end
 
 =begin
 def shoe_size(name)
