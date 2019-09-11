@@ -108,6 +108,7 @@ def most_points_scored
           binding.pry
         end 
         return scored.max[0]
+      
        end
 end end end
 end
