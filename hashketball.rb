@@ -27,7 +27,7 @@ def num_points_scored(name)
         if attribute == :players
          value.each do |data|
            data.key == name
-           
+           return data[:name][:points]
            binding.pry
 end end  end end end
 
