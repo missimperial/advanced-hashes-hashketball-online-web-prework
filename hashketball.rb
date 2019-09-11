@@ -94,6 +94,5 @@ def big_shoe_rebounds
           shoe_size[data[:shoe]] = [data[:player_name], data[:rebounds]]
           shoe_size.max[1][1]
         end 
-        shoe_size.max[1][1]
        end
 end end end
