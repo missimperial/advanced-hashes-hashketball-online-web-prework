@@ -97,3 +97,17 @@ def big_shoe_rebounds
         return shoe_size.max[1][1]
        end
 end end end
+
+def most_points_scored
+  scored = {}
+  game_hash.each do |location, team|
+    team.each do |attribute, value|
+      if attribute == :players
+        value.each do |data|
+          scored[data[:points]] = [data[:player_name], data[:rebounds]]
+          
+        end 
+        return shoe_size.max[1][1]
+       end
+end end end
+end
